@@ -4,4 +4,5 @@ Odpalanie projektu, wpisac w konsole.
 
 pnpm install
 pnpm start
-pn
+
+Nie robić builda bo sie WYPIERDALA na produkcji
