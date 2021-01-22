@@ -1,7 +1,6 @@
 dependencies:
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
-  recoil: 0.1.2_react-dom@17.0.1+react@17.0.1
   styled-components: 5.2.1_react-dom@17.0.1+react@17.0.1
 devDependencies:
   snowpack: 3.0.11
@@ -331,22 +330,6 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
-  /recoil/0.1.2_react-dom@17.0.1+react@17.0.1:
-    dependencies:
-      react: 17.0.1
-      react-dom: 17.0.1_react@17.0.1
-    dev: false
-    peerDependencies:
-      react: ^16.13.1
-      react-dom: '*'
-      react-native: '*'
-    peerDependenciesMeta:
-      react-dom:
-        optional: true
-      react-native:
-        optional: true
-    resolution:
-      integrity: sha512-hIRrHlkmW4yITlBFprVYjVPhzPKYrJKoaDrrJtAtbkMeXfXaa/XE5OlyR10n+rNfnKWNToCKb3Z4fo86IGjkzg==
   /rollup/2.36.2:
     dev: true
     engines:
@@ -426,6 +409,5 @@ packages:
 specifiers:
   react: ^17.0.1
   react-dom: ^17.0.1
-  recoil: ^0.1.2
   snowpack: ^3.0.1
   styled-components: ^5.2.1

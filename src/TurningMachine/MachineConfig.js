@@ -1,4 +1,3 @@
-// Tu misie ustawiamy rule set, umieszczamy go w obiekcie.
 export const ruleset = {
   q0: {
     1: { w: 'B', m: 1, n: 'q1' },
@@ -23,8 +22,6 @@ export const ruleset = {
   },
 };
 
-//Ustawienia taśmy, umieszczamy wszystko w macierzy
 export const tape = [1, 1, 1];
 
-//ustawienia głowy, umieszczamy wszystko a macierzy
 export const head = ['q5', 'q0', 0];

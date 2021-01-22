@@ -2,8 +2,8 @@
 module.exports = {
   mount: {
     // directory name: 'build directory'
-    public: "/",
-    src: "/dist",
+    public: '/',
+    src: '/dist',
   },
   plugins: [
     /* ... */
