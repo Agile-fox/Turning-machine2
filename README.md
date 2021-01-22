@@ -1,7 +1,7 @@
 # Turning Machine - React.js
+https://relaxed-brown-5ea891.netlify.app/
 
 Odpalanie projektu, wpisac w konsole.
-
 pnpm install
 pnpm start
 
