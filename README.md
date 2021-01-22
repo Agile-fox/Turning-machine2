@@ -9,7 +9,7 @@ pnpm start
 `const turningMachine = (a, b, c, d, e, f) => { for (e = 0; d < c; b[e] = f.w, e += f.m, d = f.n) f = a[d]b[e] || 'B']; return b; };`
 
 ## Ustawienia maszyny:</br>
-const ruleset = {
+`const ruleset = {
   q0: {
     1: { w: 'B', m: 1, n: 'q1' },
   },
