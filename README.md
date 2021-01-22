@@ -1,4 +1,4 @@
-# Chad Tech React Starter by JK
+# Turning Machine - React.js
 
 Odpalanie projektu, wpisac w konsole.
 
@@ -6,13 +6,10 @@ pnpm install
 pnpm start
 
 ##Użyta Funkcja:
-const turningMachine = (a, b, c, d, e, f) => {
-for (e = 0; d < c; b[e] = f.w, e += f.m, d = f.n) f = a[d]b[e] || 'B'];
-return b;
-};
+`const turningMachine = (a, b, c, d, e, f) => { for (e = 0; d < c; b[e] = f.w, e += f.m, d = f.n) f = a[d]b[e] || 'B']; return b; };`
 
 ##Ustawienia maszyny:
-const ruleset = {
+`const ruleset = {
 q0: {
 1: { w: 'B', m: 1, n: 'q1' },
 },
@@ -39,3 +36,4 @@ q4: {
 const tape = [1, 1, 1];
 
 const head = ['q5', 'q0', 0];
+`
