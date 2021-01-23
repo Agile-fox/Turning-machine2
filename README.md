@@ -1,12 +1,10 @@
 # Turning Machine - React.js
 Apka wybudowana -> https://relaxed-brown-5ea891.netlify.app/
 
-W odpalonym środowisku projektu, wpisac w konsole.
-pnpm install
-pnpm start
-
 ## Użyta Funkcja: </br>
-`const turningMachine = (a, b, c, d, e, f) => { for (e = 0; d < c; b[e] = f.w, e += f.m, d = f.n) f = a[d]b[e] || 'B']; return b; };`
+`const turningMachine = (a, b, c, d, e, f) => { 
+for (e = 0; d < c; b[e] = f.w, e += f.m, d = f.n) f = a[d]b[e] || 'B']; 
+return b; };`
 
 ## Ustawienia maszyny:</br>
 `const ruleset = {
