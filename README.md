@@ -41,7 +41,7 @@ pnpm start
 Jest on hardcodowany w app.jsx, dotyczy on tylko wyniku który powinnienem uzyskać przy powyższych ustawieniach. Nie zmienia sie automatycznie nawet po zmianie konfiguracji, był on tylko do sprawdzenia czy funkcja działa prawidłowo dla wybranych powyżej wartości do prównania z otrzymanym wynikiem funkcji.
 
 ## Zmiana wyświetlanego rulesetu w przeglądarce
-Ruleset z konmfiguracji nie jest powiązany z tym wyświetlanym w przeglądarce, zmiana konfiguracji nie zmieni wyświetlanego ruleset ale funkcja pokaże inny wynik w "otrzymany wynik". Aby zmienić wyświetlany przewidywany wynik jaki powinnien wyjsć, wystarczy w app.jsx podmienci ruleset na nowy użyty. Wyświetlany ruleset nie mógł pobierać danych użytych w funkcji bo tamta zmienna jest nadpisywana a funkcja nie tworzy jej kopi. 
+Ruleset z konmfiguracji nie jest powiązany z tym wyświetlanym w przeglądarce, zmiana konfiguracji nie zmieni wyświetlanego ruleset ale funkcja pokaże inny wynik w "otrzymany wynik". Aby zmienić wyświetlany ruleset wystarczy w app.jsx podmienci ruleset na nowy użyty. Wyświetlany ruleset nie mógł pobierać danych użytych w funkcji bo tamta zmienna jest nadpisywana a funkcja nie tworzy jej kopi podczas przyjmowania argumentów. 
 
 ## modyfikacja maszyny
 Trzeba otworzyć plik TurningMachine/MachienConfgi.js
